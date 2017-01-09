@@ -1,0 +1,69 @@
+{
+  "buildFiles": [
+    "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Android.mk",
+    "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/pham.xuan.lu/Downloads/android-ndk-r9d/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Application.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "photoprocessing-release-mips": {
+      "buildCommand": "/Users/pham.xuan.lu/Downloads/android-ndk-r9d/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/Application.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/lib /Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/obj/local/mips/libphotoprocessing.so",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "artifactName": "photoprocessing",
+      "files": [
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/bicubic_resize.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/bitmap.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/blur.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/colour_space.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/filter.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/matrix.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/mem_utils.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/nanojpeg.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/photo_processing.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        },
+        {
+          "src": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni/transform.c",
+          "flags": "\"-fpic\" \"-fno-strict-aliasing\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/jni\" \"-DANDROID\" \"-DANDROID_NDK\" \"-DDISABLE_IMPORTGL\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/pham.xuan.lu/Downloads/android-ndk-r9d/platforms/android-9/arch-mips/usr/include\""
+        }
+      ],
+      "output": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/ndkBuild/release/obj/local/mips/libphotoprocessing.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cCompilerExecutable": "/Users/pham.xuan.lu/Downloads/android-ndk-r9d/toolchains/mipsel-linux-android-4.6/prebuilt/darwin-x86_64/bin/mipsel-linux-android-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

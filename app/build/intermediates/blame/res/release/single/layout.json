@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/layout/filter_list_item.xml",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/layout/filter_list_item.xml"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/layout/main.xml",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/layout/edit_list_item.xml",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/layout/edit_list_item.xml"
+    }
+]

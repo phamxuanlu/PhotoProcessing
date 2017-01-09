@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_menu_save.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_menu_save.png"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_menu_always_landscape_portrait.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_menu_always_landscape_portrait.png"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_menu_gallery.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_menu_gallery.png"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_menu_camera.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_menu_camera.png"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/build/intermediates/res/merged/release/drawable-mdpi/ic_menu_star.png",
+        "source": "/Users/pham.xuan.lu/LUPX/LABS/PhotoProcessing1/app/src/main/res/drawable-mdpi/ic_menu_star.png"
+    }
+]
